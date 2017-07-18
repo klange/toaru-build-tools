@@ -15,3 +15,4 @@ RUN /opt/build/git.sh
 RUN /opt/build/prepare.sh
 RUN /opt/build/build.sh
 
+RUN apt-get install -y grub-pc-bin
