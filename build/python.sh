@@ -16,3 +16,8 @@ make
 make install
 
 python3.6 --version
+
+echo "== Removing sources..."
+cd /opt
+rm -r Python-3.6.2
+rm Python-3.6.2.tar.xz

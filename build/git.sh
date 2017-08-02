@@ -4,5 +4,5 @@
 
 cd /opt
 
-git clone https://github.com/klange/toaruos toaruos
+git clone --depth 1 https://github.com/klange/toaruos toaruos
 
